@@ -1,0 +1,12 @@
+Source: python-django-chocolate
+Section: python
+Priority: optional
+Maintainer: juanique
+Homepage: https://github.com/juanique/django-chocolate
+Build-Depends: debhelper, python-support
+
+Package: python-django-chocolate
+Architecture: all
+Depends: ${python:Depends}, python-support, python-django-tastypie
+Provides: ${python:Provides}
+Description: Mockup data generation for django and django-tastypie.
